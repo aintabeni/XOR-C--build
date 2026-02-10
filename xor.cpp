@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-    bool p = 0;
-    bool q = 0;
+    bool p , q;
     //pXORq Calculation
     bool pXORq = !p&&q || p&&!q;
-
-    cout << (p ^ q);
-    cout << pXORq;
+    //Checking if pXORq is correct for p = true and q = true
+    p = true;
+    q = true;
+    cout << p << " XOR " << q << " is " << pXORq << endl;
 
 
 }
